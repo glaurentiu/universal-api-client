@@ -698,6 +698,6 @@ MIT © [Your Name]
 
 ## Support
 
-- 📖 [Documentation](https://github.com/yourusername/universal-api-client)
-- 🐛 [Issues](https://github.com/yourusername/universal-api-client/issues)
-- 💬 [Discussions](https://github.com/yourusername/universal-api-client/discussions)
+- 📖 [Documentation](https://github.com/glaurentiu/universal-api-client)
+- 🐛 [Issues](https://github.com/glaurentiu/universal-api-client/issues)
+- 💬 [Discussions](https://github.com/glaurentiu/universal-api-client/discussions)
