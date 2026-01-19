@@ -694,7 +694,7 @@ const data = response.data;
 
 ## License
 
-MIT © [Your Name]
+MIT
 
 ## Support
 
