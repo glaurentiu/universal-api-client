@@ -1,6 +1,6 @@
 {
   "name": "universal-api-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A production-ready, framework-agnostic API client for Node.js and browser environments",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
