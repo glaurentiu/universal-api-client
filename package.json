@@ -1,0 +1,86 @@
+{
+  "name": "universal-api-client",
+  "version": "1.0.0",
+  "description": "A production-ready, framework-agnostic API client for Node.js and browser environments",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "api",
+    "client",
+    "http",
+    "rest",
+    "graphql",
+    "typescript",
+    "fetch",
+    "axios",
+    "pagination",
+    "retry"
+  ],
+  "author": "Laurentiu Gingioveanu <laurentiu@eagertowork.ro>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaurentiu/universal-api-client.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "axios": ">=0.21.0"
+  },
+  "peerDependenciesMeta": {
+    "axios": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "universal-error-normalizer": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "axios": "^1.13.2",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "cjs",
+      "esm"
+    ],
+    "dts": true,
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true,
+    "minify": false,
+    "outDir": "dist",
+    "target": "es2020",
+    "external": [
+      "axios"
+    ]
+  }
+}
