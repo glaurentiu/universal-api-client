@@ -1,17 +1,16 @@
 # Universal API Client
 
+[![npm version](https://badge.fury.io/js/universal-api-client.svg)](https://www.npmjs.com/package/universal-api-client)
+[![npm downloads](https://img.shields.io/npm/dy/universal-api-client)](https://www.npmjs.com/package/universal-api-client)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
+
 A production-ready, framework-agnostic API client for Node.js and browser environments. Built with TypeScript first, featuring automatic retries, error normalization, GraphQL support, pagination, and more.
 
 **Author:** Laurentiu Gingioveanu ([@eager_to_work](https://twitter.com/eager_to_work))  
 **Email:** laurentiu@eagertowork.ro  
 **GitHub:** [glaurentiu](https://github.com/glaurentiu)
 
-
-[![npm version](https://badge.fury.io/js/universal-api-client.svg)](https://www.npmjs.com/package/universal-api-client)
-[![npm downloads](https://img.shields.io/npm/dy/universal-api-client)](https://www.npmjs.com/package/universal-api-client)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
 
